@@ -101,7 +101,7 @@ $(document).ready(function () {
         // @TODO Should cost 2 to move up or down a level
         getCost3d: function (xC, yC, zC, xT, yT, zT) {
             if (Math.abs(zC - zT) >= 1) {
-//                console.log(xC, yC, zC, xT, yT, zT, Math.abs(zC - zT));
+                // console.log(xC, yC, zC, xT, yT, zT, Math.abs(zC - zT));
                 return this.data[zT][yT][xT] + Math.abs(zC - zT);
             }
 

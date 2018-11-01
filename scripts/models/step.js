@@ -21,7 +21,7 @@ $(document).ready(function () {
     };
 
     jp.Step = function(xC, yC, xT, yT, totalSteps, parentStep) {
-        // herustic
+        // heuristic
         var h = _private.distanceM(xC, yC, xT, yT);
 
         this.x = xC;
